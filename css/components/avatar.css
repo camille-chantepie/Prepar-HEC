@@ -1,0 +1,9 @@
+
+.avatar {
+	border-radius : 50% ;
+  text-align: center ;
+      margin: 5px 5px; 
+     border: 1px solid black ;
+     width: 125px;
+     height: 125px;
+ }

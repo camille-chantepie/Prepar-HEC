@@ -1,0 +1,39 @@
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+	padding: 20px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+	border-radius: 6px;
+	margin : 18px;
+	flex-basis: 250 px;
+	flex-grow: 1;
+}
+.card img {
+  width: 250px;
+  border-radius: 6px;
+  font-size: 34px;
+}
+.card h3 {
+  flex-grow: 1;
+  padding-left: 20px;
+  font-size: 24px;
+}
+
+.cards {
+  display: flex;
+	flex-wrap: wrap;
+}
+
+.card-special {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+	padding: 25px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+	border-radius: 6px;
+	margin : 18px;
+	flex-basis: 50 px;
+	flex-grow: 1;
+}
